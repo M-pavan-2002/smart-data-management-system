@@ -1,25 +1,34 @@
 # Smart Data Management System
 
-This is a CRUD-based web application using Flask and SQLite.
+A full-stack web application to manage user data using CRUD operations.
 
-## Features
+## 🚀 Features
 - Add users
 - View users
 - Delete users
-- Duplicate detection
+- Duplicate email validation
 
-## Tech Stack
+## 🛠️ Tech Stack
 - Python (Flask)
 - SQLite
 - HTML, CSS, JavaScript
 
-## How to Run
-1. Install:
+## 📂 Project Structure
+backend/
+frontend/
+
+## ▶️ How to Run
+1. Install dependencies:
    pip install flask flask-cors
 
 2. Run backend:
+   cd backend
    python app.py
 
 3. Open frontend:
-   index.html
-   
+   frontend/index.html
+
+## 📌 Output
+- Add user
+- Display users
+- Delete users
